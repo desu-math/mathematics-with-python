@@ -36,7 +36,7 @@ This idea is extremely important in numerical analysis because calculations perf
 
 A **significant figure** is any digit that contributes to the precision of a measured or approximated number.
 
-Simply put,
+Simply,
 
 > Significant figures are the digits we trust in a numerical value.
 
