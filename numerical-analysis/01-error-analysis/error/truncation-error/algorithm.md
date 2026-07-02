@@ -59,3 +59,26 @@ A smaller truncation error indicates that the approximation is closer to the exa
 The way the approximation is computed depends on the numerical method being used.
 
 Therefore, each numerical method has its own specific algorithm for producing the approximation, while the general procedure above explains how the truncation error is determined once an approximation has been obtained.
+
+For e^x
+Start
+
+Input x.
+Input the number of Taylor series terms (n).
+
+Set approximation = 0.
+
+Repeat for k = 0 to n−1
+    approximation = approximation + x^k / k!
+
+Compute the exact value using exp(x).
+
+Compute truncation error:
+    |exact value − approximation|
+
+Display
+    Exact value
+    Approximate value
+    Truncation error
+
+End
