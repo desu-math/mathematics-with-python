@@ -1,4 +1,4 @@
-# truncation error for taylor series of f(x) = e^x
+# truncation error for taylor series of f(x) = e^x = 1 + x + x^2/2! + x^3/3! + x^4/4! + ...
 import math
 
 # Input
