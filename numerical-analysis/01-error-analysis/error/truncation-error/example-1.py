@@ -9,7 +9,8 @@ n = int(input("Enter the number of Taylor series terms: "))
 approximation = 0
 
 for k in range(n):
-    approximation += (x ** k) / math.factorial(k)
+    term = (x ** k) / math.factorial(k)
+    approximation += term
 
 # Exact value
 exact = math.exp(x)
@@ -21,5 +22,11 @@ truncation_error = abs(exact - approximation)
 print("\nResult")
 print("------")
 print(f"Exact value         = {exact}")
+print(
+        f"Term {k + 1}: "
+        f"x^{k}/{k}! = {term:.10f}, "
+        f"Partial Sum = {approximation:.10f}"
+    )
+
 print(f"Approximate value   = {approximation}")
 print(f"Truncation error    = {truncation_error}")
