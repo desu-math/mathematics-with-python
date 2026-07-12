@@ -150,6 +150,26 @@ Common visualizations include:
 * Box Plot---A box plot summarizes a distribution using: Minimum, First quartile (Q1), Median, Third quartile (Q3),Maximum.
 * Scatter Plot---A scatter plot shows the relationship between two numerical variables.
 
+  **Chart selection guide:**
+
+  Do I have categories?
+        │
+        ├── Yes
+        │      │
+        │      ├── Compare counts → Bar Chart
+        │      │
+        │      └── Show percentages → Pie Chart
+        │
+        └── No (Numerical Data)
+               │
+               ├── Show distribution → Histogram
+               │
+               ├── Show change over time → Line Chart
+               │
+               ├── Compare two numerical variables → Scatter Plot
+               │
+               └── Compare spread or detect outliers → Box Plot
+
 Visualization is an essential part of exploratory data analysis.
 
 ---
