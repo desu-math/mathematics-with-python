@@ -182,7 +182,125 @@ P(X=6)=1/6
 
 The complete table is the probability distribution of X.
 
+
 ---
+# Types of Probability Distributions
+
+Probability distributions are generally classified into **two major categories**:
+
+```text
+Probability Distributions
+│
+├── Discrete Probability Distributions
+│
+└── Continuous Probability Distributions
+```
+
+The classification depends on the type of random variable being studied.
+
+---
+
+# Discrete Probability Distributions
+
+A **discrete probability distribution** describes the behavior of a **discrete random variable**.
+
+Since a discrete random variable can take only **countable values**, the probability of each individual value can be calculated directly.
+
+Examples of discrete random variables include:
+
+* Number of heads in 10 coin tosses
+* Number of customers entering a shop
+* Number of defective products in a factory
+* Number of goals scored in a football match
+
+Common discrete probability distributions include:
+
+* Bernoulli Distribution
+* Binomial Distribution
+* Geometric Distribution
+* Poisson Distribution
+
+Discrete probability distributions are described using the **Probability Mass Function (PMF)**.
+
+---
+
+# Continuous Probability Distributions
+
+A **continuous probability distribution** describes the behavior of a **continuous random variable**.
+
+Since a continuous random variable can take infinitely many values within an interval, the probability of an exact value is zero.
+
+Instead, probabilities are calculated over intervals.
+
+Examples of continuous random variables include:
+
+* Height
+* Weight
+* Temperature
+* Time
+* Rainfall
+* Blood pressure
+
+Common continuous probability distributions include:
+
+* Uniform Distribution
+* Normal Distribution
+* Exponential Distribution
+
+Continuous probability distributions are described using the **Probability Density Function (PDF)**.
+
+---
+
+# Comparison of Discrete and Continuous Distributions
+
+| Discrete Distribution                         | Continuous Distribution                |
+| --------------------------------------------- | -------------------------------------- |
+| Describes discrete random variables           | Describes continuous random variables  |
+| Countable possible values                     | Infinitely many possible values        |
+| Uses PMF                                      | Uses PDF                               |
+| Probability can be assigned to an exact value | Probability is assigned over intervals |
+| Usually represents counting                   | Usually represents measurement         |
+
+---
+
+# Why Are There Many Probability Distributions?
+
+A natural question is:
+
+> **Why don't we use one probability distribution for every problem?**
+
+The answer is that different real-world phenomena behave differently.
+
+For example:
+
+* A coin toss has only two possible outcomes.
+* The number of customers entering a store may be any non-negative integer.
+* Human height varies continuously around an average.
+* Waiting time until the next bus follows a different pattern from both coin tosses and human heights.
+
+Because these situations have different characteristics, a single mathematical model cannot accurately describe all of them.
+
+Therefore, probability theory provides several probability distributions, each designed for a specific type of random phenomenon.
+
+---
+
+# Choosing an Appropriate Probability Distribution
+
+Selecting the correct probability distribution is one of the most important tasks in statistics and data science.
+
+The following table provides a general guideline.
+
+| Real-World Problem                                 | Suitable Distribution    |
+| -------------------------------------------------- | ------------------------ |
+| One success or failure                             | Bernoulli Distribution   |
+| Number of successes in repeated independent trials | Binomial Distribution    |
+| Number of events occurring within a fixed interval | Poisson Distribution     |
+| Values equally likely within an interval           | Uniform Distribution     |
+| Natural measurements clustered around an average   | Normal Distribution      |
+| Waiting time until an event occurs                 | Exponential Distribution |
+
+In later sections of this chapter, we will study each of these probability distributions in detail, including their mathematical properties, algorithms, Python implementations, and visualizations.
+
 
 # Probability Mass Function (PMF)
 
