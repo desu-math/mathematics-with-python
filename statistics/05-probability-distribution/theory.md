@@ -244,3 +244,180 @@ The following table provides a general guideline.
 | Waiting time until an event occurs                 | Exponential Distribution |
 
 The remaining sections of this chapter study each of these distributions in detail, including their mathematical foundations, algorithms, Python implementations, and visualizations.
+
+
+Probability Distribution
+
+A probability distribution describes the relationship between:
+
+possible values of a random variable,
+and the probabilities associated with those values.
+
+It answers:
+
+"How likely is each possible value of this random variable?"
+
+Example: Rolling a Fair Die
+
+Let X represent the result of rolling a die.
+
+Possible values:
+
+X = {1,2,3,4,5,6}
+
+Since the die is fair:
+
+P(X=1)=1/6
+
+P(X=2)=1/6
+
+P(X=3)=1/6
+
+...
+
+P(X=6)=1/6
+
+The complete table is the probability distribution of X.
+
+Probability Mass Function (PMF)
+
+The Probability Mass Function (PMF) describes the probability distribution of a discrete random variable.
+
+It gives the probability that a discrete random variable takes a specific value.
+
+It is written as:
+
+P(X = x)
+
+where:
+
+X is the random variable.
+x is a possible value.
+Example: Dice Roll
+
+The PMF is:
+
+Value (x)      Probability
+
+1              1/6
+2              1/6
+3              1/6
+4              1/6
+5              1/6
+6              1/6
+
+The sum of all probabilities must equal 1:
+
+1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6 = 1
+Probability Density Function (PDF)
+
+The Probability Density Function (PDF) describes the probability distribution of a continuous random variable.
+
+Unlike PMF, PDF does not give the probability at an exact point.
+
+Instead, probability is measured over an interval.
+
+Important Idea
+
+For a continuous variable:
+
+P(X = exact value) = 0
+
+because there are infinitely many possible values.
+
+For example:
+
+P(Height = 170.523456 cm)
+
+is essentially zero.
+
+Instead, we calculate probabilities over ranges:
+
+Example:
+
+P(170 cm < Height < 180 cm)
+Cumulative Distribution Function (CDF)
+
+The Cumulative Distribution Function (CDF) gives the probability that a random variable is less than or equal to a certain value.
+
+It is written as:
+
+F(x) = P(X ≤ x)
+
+It answers:
+
+"What is the probability that the random variable does not exceed x?"
+
+Example
+
+Suppose:
+
+X = Exam score
+
+The CDF value:
+
+F(80)=0.75
+
+means:
+
+75% of students scored 80 or below.
+Relationship Between PMF, PDF, and CDF
+
+These three concepts describe the same idea from different perspectives.
+
+Discrete Case
+PMF
+ |
+ |
+ ↓
+Individual probabilities
+ |
+ |
+ ↓
+CDF
+
+PMF gives individual probabilities.
+
+CDF accumulates them.
+
+Continuous Case
+PDF
+ |
+ |
+ ↓
+Probability density
+ |
+ |
+ ↓
+CDF
+
+PDF describes the shape of the distribution.
+
+CDF accumulates probability up to a value.
+
+Expected Value
+
+A probability distribution allows us to calculate the expected value of a random variable.
+
+The expected value represents the long-term average outcome.
+
+For a discrete random variable:
+
+E(X) = Σ xP(x)
+
+where:
+
+x = possible value
+P(x) = probability of that value
+Example
+
+For a fair die:
+
+E(X)
+
+= 1(1/6)+2(1/6)+3(1/6)
++4(1/6)+5(1/6)+6(1/6)
+
+= 3.5
+
+Although 3.5 cannot appear in one roll, it represents the average result over many rolls.
