@@ -1,4 +1,3 @@
-```python
 """
 Descriptive Statistics
 (Manual Implementation)
@@ -121,4 +120,4 @@ print(f"Standard Deviation  : {standard_deviation(data):.2f}")
 print(f"First Quartile (Q1) : {q1}")
 print(f"Third Quartile (Q3) : {q3}")
 print(f"Interquartile Range : {interquartile_range}")
-```
+
