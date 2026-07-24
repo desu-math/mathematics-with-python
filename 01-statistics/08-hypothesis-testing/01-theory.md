@@ -8,7 +8,7 @@ Although confidence intervals provide a range of plausible values for an unknown
 
 Instead of asking,
 
- **"What is the value of the population parameter?"**
+> **"What is the value of the population parameter?"**
 
 they ask,
 
