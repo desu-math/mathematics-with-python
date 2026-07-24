@@ -22,7 +22,7 @@ This repository has three main goals:
 
 ---
 
-
+```text
 ## Repository Structure
 
 mathematics-with-python/
@@ -50,7 +50,7 @@ mathematics-with-python/
 ├── data_science_projects/            (Coming Soon)
 │
 └── README.md
-
+```
 ---
 
 ## Current Progress
