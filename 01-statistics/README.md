@@ -2,11 +2,11 @@
 
 ## Overview
 
-This chapter covers the fundamental concepts of statistics required for data analysis and machine learning.
+This course covers the fundamental concepts of statistics especially required for data analysis and machine learning.
 
 Statistics provides the mathematical foundation for understanding data, measuring uncertainty, discovering relationships, and making data-driven decisions.
 
-The focus of this chapter is not only theoretical understanding but also practical implementation using Python libraries commonly used in data science.
+The focus of this course is not only theoretical understanding but also practical implementation using Python libraries commonly used in data science.
 
 ---
 
@@ -91,9 +91,8 @@ By completing this chapter, you will be able to:
 
 ## 5. Probability Distributions
 
-* Discrete distributions
-* Continuous distributions
-* Normal distribution
+* Discrete distributions: Bernoulli, Binomial, and Poisson distributions
+* Continuous distributions: Uniform, Normal, and Exponential distributions
 * Expected value and variance
 
 ---
@@ -127,7 +126,7 @@ By completing this chapter, you will be able to:
 
 # Python Libraries
 
-The following libraries are used throughout this chapter:
+The following libraries are used throughout this course:
 
 | Library     | Purpose                         |
 | ----------- | ------------------------------- |
