@@ -12,7 +12,7 @@ In modern science, engineering, business, medicine, economics, and artificial in
 
 # Why Study Statistics?
 
-Data is generated everywhere—from scientific experiments and business transactions to social media and sensor networks.
+Data is generated everywhere this means, from scientific experiments and business transactions to social media and sensor networks.
 
 Without statistical methods, large amounts of data are difficult to understand or interpret.
 
@@ -157,7 +157,7 @@ Statistics is widely used in:
 
 Python provides powerful libraries for statistical computing and data analysis.
 
-Throughout this chapter, the following libraries will be used:
+Throughout this course, the following libraries will be used:
 
 * **NumPy** for numerical computations.
 * **Pandas** for data manipulation.
