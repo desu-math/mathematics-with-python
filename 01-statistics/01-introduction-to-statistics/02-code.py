@@ -30,3 +30,16 @@ print("Maximum score:", max(scores))
 
 print("\nThe data is ready for statistical analysis.")
 
+#------------------------------------------
+#Output
+#------------------------------------------
+```python
+Student Scores:
+[78, 85, 91, 67, 88, 95, 73, 84, 90, 81]
+
+Number of observations: 10
+Minimum score: 67
+Maximum score: 95
+
+The data is ready for statistical analysis.
+```
