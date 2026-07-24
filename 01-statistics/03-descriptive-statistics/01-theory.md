@@ -144,12 +144,13 @@ Graphical representations help reveal patterns that may not be obvious from nume
 
 Common visualizations include:
 
-* Histogram---It is used for continuous numerical data.
-* Bar Chart---Use a bar chart when you want to compare categories.
-* Pie Chart---A pie chart shows parts of a whole.
-* Box Plot---A box plot summarizes a distribution using: Minimum, First quartile (Q1), Median, Third quartile (Q3),Maximum.
-* Scatter Plot---A scatter plot shows the relationship between two numerical variables.
+* Histogram: used for continuous numerical data.
+* Bar Chart: used to compare categories.
+* Pie Chart: used to shows parts of a whole.
+* Box Plot: used to summarizes a distribution using: Minimum, First quartile (Q1), Median, Third quartile (Q3),Maximum.
+* Scatter Plot: used to shows the relationship between two numerical variables.
 
+```text
   **Chart selection guide:**
 
   Do I have categories?
@@ -171,7 +172,7 @@ Common visualizations include:
                └── Compare spread or detect outliers → Box Plot
 
 Visualization is an essential part of exploratory data analysis.
-
+```
 ---
 
 # Why Descriptive Statistics Matters
