@@ -77,7 +77,7 @@ mathematics-with-python/
 * Fixed-Point Iteration Method
 
 ---
-
+```text
 ## Learning Approach
 
 Each topic in this repository follows a consistent structure:
@@ -92,7 +92,7 @@ Topic/
 
 
 This structure is intended to help learners move from understanding the mathematical idea to implementing it confidently in Python.
-
+```
 ---
 
 ## Future Roadmap
