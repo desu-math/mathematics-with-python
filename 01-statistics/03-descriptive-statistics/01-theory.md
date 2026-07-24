@@ -151,7 +151,7 @@ Common visualizations include:
 * Scatter Plot: used to shows the relationship between two numerical variables.
 
 ```text
-  **Chart selection guide:**
+  Chart selection guide:
 
   Do I have categories?
         │
