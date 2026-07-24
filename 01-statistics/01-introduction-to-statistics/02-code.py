@@ -1,5 +1,6 @@
 """
-This example is just to see some python implementation in statistics, and since this is just a introduction section, I intentionally made it too beginner level.
+This example is just to see some python implementation in statistics, 
+and since this is just an introduction section, I intentionally made it too beginner level.
 """
 
 # -----------------------------------------
