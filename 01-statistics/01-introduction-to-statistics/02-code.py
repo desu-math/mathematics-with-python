@@ -1,4 +1,3 @@
-```python
 """
 This example is just to see some python implementation in statistics, 
 and since this is just an introduction section, I intentionally made it too beginner level.
@@ -44,4 +43,4 @@ Maximum score: 95
 
 The data is ready for statistical analysis.
 """
-```
+
