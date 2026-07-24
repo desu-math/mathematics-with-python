@@ -150,6 +150,8 @@ Common visualizations include:
 * Box Plot: used to summarizes a distribution using: Minimum, First quartile (Q1), Median, Third quartile (Q3),Maximum.
 * Scatter Plot: used to shows the relationship between two numerical variables.
 
+---
+
 ```text
   Chart selection guide:
 
