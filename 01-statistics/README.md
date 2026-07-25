@@ -27,27 +27,27 @@ By completing this chapter, you will be able to:
 # Chapter Structure
 
 ```text
-03_statistics/
+01-statistics/
 
-├── 01_introduction_to_statistics/
+├── 01-introduction-to-statistics/
 │
-├── 02_types_of_data/
+├── 02_types-of-data/
 │
-├── 03_descriptive_statistics/
+├── 03-descriptive-statistics/
 │
-├── 04_probability_basics/
+├── 04-probability-basics/
 │
-├── 05_probability_distributions/
+├── 05-probability-distributions/
 │
-├── 06_sampling_and_sampling_distributions/
+├── 06-sampling-and-sampling-distributions/
 │
-├── 07_estimation_and_confidence_intervals/
+├── 07-estimation-and-confidence-intervals/
 │
-├── 08_hypothesis_testing/
+├── 08-hypothesis-testing/
 │
-├── 09_correlation_and_covariance/
+├── 09-correlation-and-covariance/
 │
-└── 10_linear_regression/
+└── 10-linear-regression/
 ```
 
 ---
@@ -155,7 +155,7 @@ The concepts covered here will be applied in:
 
 # Future Extensions
 
-This chapter will be expanded over time with:
+This course will be expanded over time with:
 
 * Advanced statistical methods
 * More real-world datasets
