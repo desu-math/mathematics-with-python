@@ -96,11 +96,15 @@ Number of students in a classroom
 Possible values:
 
 40, 41, 42, 43, ...
+```
+```text
 Number of defective products
 
 Possible values:
 
 0, 1, 2, 3, ...
+```
+```text
 Number of heads in 10 coin tosses
 
 Possible values:
