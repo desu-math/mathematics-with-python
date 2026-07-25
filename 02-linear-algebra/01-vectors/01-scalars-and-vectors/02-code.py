@@ -1,4 +1,3 @@
-```python
 """
 Scalars, Vectors, and Vector Notation
 -------------------------------------
@@ -45,4 +44,4 @@ print("\nComponents of u:")
 print("x-component =", u[0])
 print("y-component =", u[1])
 print("z-component =", u[2])
-```
+
