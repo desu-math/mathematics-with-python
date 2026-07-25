@@ -39,14 +39,14 @@ mathematics-with-python/
 │   ├── 10-linear-regression/
 │   └── README.md   
 │      
-├── 02-linear_algebra/                   
+├── 02-linear-algebra/                   
 │
 │
 ├── 03-calculus/                         
 │
 ├── 04-numerical-analysis/               
 │
-├── 05-data_science_projects/            (Coming Soon)
+├── 05-data-science-projects/            (Coming Soon)
 │
 ├── image.png
 └── README.md
