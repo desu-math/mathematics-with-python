@@ -41,11 +41,13 @@ Together, these probabilities form the **probability distribution** of the rando
 ---
 **Random Variables**
 
-A random variable is a variable whose value is determined by the outcome of a random experiment.
+> A **random variable** is a variable whose value is determined by the outcome of a random experiment.
 
 Unlike ordinary variables, a random variable does not have a fixed value before the experiment occurs.
 
 It assigns a numerical value to each possible outcome.
+
+```text
 
 Example: Coin Toss
 
@@ -55,32 +57,38 @@ The possible outcomes are:
 
 Head
 Tail
-
+```
 We can define a random variable X as:
-
+```text
 X = 1  if the result is Head
 
 X = 0  if the result is Tail
-
+```
 Now the random experiment produces numerical values:
-
+```text
 X = {0, 1}
-
+```
 This numerical representation allows us to apply mathematical analysis.
 
-Types of Random Variables
+---
+
+# Types of Random Variables
 
 Random variables are divided into two main categories:
+```text
 
 **Discrete Random Variables
 Continuous Random Variables**
 
+```
+---
+
 **Discrete Random Variables**
 
-A discrete random variable can take a countable number of possible values.
+> A **discrete random variable** can take a countable number of possible values.
 
 The possible values are usually separated and distinct.
-
+```text
 Examples:
 
 Number of students in a classroom
@@ -100,13 +108,16 @@ Possible values:
 0, 1, 2, ..., 10
 
 Discrete variables are usually produced by counting.
+```
+---
 
 **Continuous Random Variables**
 
-A continuous random variable can take any value within an interval.
+> A **continuous random variable** can take any value within an interval.
 
 The possible values are infinite.
 
+```text
 Examples:
 
 Height of a person
@@ -132,7 +143,8 @@ Between:
 there are infinitely many possible values.
 
 Continuous variables are usually produced by measurement.
-
+```
+---
 
 # Types of Probability Distributions
 
