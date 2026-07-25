@@ -77,8 +77,8 @@ This numerical representation allows us to apply mathematical analysis.
 Random variables are divided into two main categories:
 ```text
 
-**Discrete Random Variables
-Continuous Random Variables**
+- Discrete Random Variables
+- Continuous Random Variables
 
 ```
 ---
@@ -106,9 +106,9 @@ Number of heads in 10 coin tosses
 Possible values:
 
 0, 1, 2, ..., 10
-
-Discrete variables are usually produced by counting.
 ```
+Discrete variables are usually produced by counting.
+
 ---
 
 **Continuous Random Variables**
@@ -141,9 +141,9 @@ Between:
 20°C and 21°C
 
 there are infinitely many possible values.
-
-Continuous variables are usually produced by measurement.
 ```
+Continuous variables are usually produced by measurement.
+
 ---
 
 # Types of Probability Distributions
