@@ -47,10 +47,10 @@ A **statistic** is a numerical characteristic calculated from a sample.
 
 Common sample statistics include:
 
-* Sample mean (x bar)
-* Sample variance ((s^2))
+* Sample mean (x̄)
+* Sample variance (s²)
 * Sample standard deviation (s)
-* Sample proportion ((\hat p))
+* Sample proportion (p̂)
 
 Population parameters are usually unknown, while sample statistics are used to estimate them.
 
