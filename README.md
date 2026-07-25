@@ -27,54 +27,31 @@ This repository has three main goals:
 
 mathematics-with-python/
 
-├── numerical_analysis/
-│   ├── 01_error_analysis/
-│   ├── 02_root_finding/
-│   ├── 03_interpolation/                (Coming Soon)
-│   ├── 04_numerical_differentiation/    (Coming Soon)
-│   ├── 05_numerical_integration/        (Coming Soon)
-│   ├── 06_systems_of_equations/         (Coming Soon)
-│   ├── 07_differential_equations/       (Coming Soon)
-│   └── ...
+├── 01-statistics/
+│   ├── 01-introduction-to-statistics/
+│   ├── 02-types-of-data/
+│   ├── 03-descriptive-statistics/               
+│   ├── 04-probability-basics/   
+│   ├── 05-probability-distribution/       
+│   ├── 06-sampling-and-sampling-distribution/         
+│   ├── 07-estimation-and-confidence-intervals/
+│   ├── 08-hypothesis-testing/
+│   ├── 09-correlation-and-covariance/
+│   ├── 10-linear-regression/
+│   └── README.md   
+│      
+├── 02-linear_algebra/                   
 │
-├── linear_algebra/                   (Coming Soon)
 │
-├── statistics/                       (Coming Soon)
+├── 03-calculus/                         
 │
-├── probability/                      (Coming Soon)
+├── 04-numerical-analysis/               
 │
-├── calculus/                         (Coming Soon)
+├── 05-data_science_projects/            (Coming Soon)
 │
-├── optimization/                     (Coming Soon)
-│
-├── data_science_projects/            (Coming Soon)
-│
+├── image.png
 └── README.md
 ```
----
-
-## Current Progress
-
-### ✅ Numerical Analysis
-
-#### Error Analysis
-
-* Significant Figures
-* Decimal Places
-* Absolute Error
-* Relative Error
-* Percentage Error
-* Round-off Error
-* Truncation Error
-* Error Propagation
-
-#### Finding Roots of Equations
-
-* Bisection Method
-* False Position Method
-* Secant Method
-* Newton–Raphson Method
-* Fixed-Point Iteration Method
 
 ---
 ```text
@@ -85,11 +62,11 @@ Each topic in this repository follows a consistent structure:
 
 Topic/
 
-├── README.md        → Topic overview
-├── theory.md        → Mathematical concepts and derivations
-├── algorithm.md     → Step-by-step algorithm
-├── example.py       → Python implementation
-
+├── 01-theory.md            → Mathematical concepts and derivations
+├── 02-worked-example.md    → theory based hand work example (if applicable)
+├── 03-algorithm.md         → Step-by-step algorithm (if applicable)
+├── 04-code1.py             → Python implementation without libraries
+├── 05-code2.py             → Python implementation with libraries (if applicable)
 
 This structure is intended to help learners move from understanding the mathematical idea to implementing it confidently in Python.
 ```
@@ -97,54 +74,7 @@ This structure is intended to help learners move from understanding the mathemat
 
 ## Future Roadmap
 
-The repository will continue to expand with topics including:
-
-### Numerical Analysis
-
-* Interpolation
-* Numerical Differentiation
-* Numerical Integration
-* Systems of Linear Equations
-* Systems of Nonlinear Equations
-* Numerical Solution of Differential Equations
-* Numerical Optimization
-
-### Linear Algebra
-
-* Vectors
-* Matrices
-* Determinants
-* Systems of Linear Equations
-* Matrix Factorizations
-* Eigenvalues and Eigenvectors
-
-### Statistics
-
-* Descriptive Statistics
-* Probability Distributions
-* Sampling
-* Estimation
-* Hypothesis Testing
-* Regression Analysis
-
-### Probability
-
-* Random Variables
-* Probability Distributions
-* Conditional Probability
-* Bayes' Theorem
-* Expected Value
-* Variance
-
-### Calculus
-
-* Limits
-* Differentiation
-* Integration
-* Partial Derivatives
-* Multiple Integrals
-
-### Data Science Projects
+The repository will continue to expand with data science projects including:
 
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
@@ -158,12 +88,7 @@ The repository will continue to expand with topics including:
 
 ## Technologies Used
 
-* Python
-* SymPy
-* NumPy *(coming soon)*
-* Pandas *(coming soon)*
-* Matplotlib *(coming soon)*
-* Jupyter Notebook *(coming soon)*
+* Python 
 
 ---
 
@@ -171,16 +96,16 @@ The repository will continue to expand with topics including:
 
 This repository is intended for:
 
-* Students learning mathematics with Python.
-* Beginners in numerical analysis and scientific computing.
+* Students learning mathematics and Python.
 * Anyone preparing for data science or machine learning.
-* Self-learners who want to understand mathematical algorithms through implementation.
+* Self-learners who want to understand mathematical and statistical algorithms through implementation.
 
 ---
 
 ## Contributing
 
-Suggestions, corrections, and improvements are always welcome. If you find an error or have an idea to improve the explanations or implementations, feel free to open an issue or submit a pull request.
+Suggestions, corrections, and improvements are always welcome. 
+If you find an error or have an idea to improve the explanations or implementations, feel free to open an issue or submit a pull request.
 
 ---
 
