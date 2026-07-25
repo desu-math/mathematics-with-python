@@ -21,9 +21,8 @@ This repository has three main goals:
 * 📊 Develop a strong mathematical foundation for Data Science, Machine Learning, and Scientific Computing.
 
 ---
-
-```text
 ## Repository Structure
+```text
 
 mathematics-with-python/
 
@@ -54,8 +53,8 @@ mathematics-with-python/
 ```
 
 ---
-```text
 ## Learning Approach
+```text
 
 Each topic in this repository follows a consistent structure:
 
