@@ -2,7 +2,7 @@
 
 > **Learning mathematics by implementing concepts, algorithms, and real-world examples in Python.**
 
-## About the Project
+## About the Repository
 
 **Mathematics with Python** is an educational repository that combines mathematical theory with Python programming. Its purpose is to make mathematical concepts easier to understand by explaining the underlying theory, presenting step-by-step algorithms, and implementing them in Python.
 
