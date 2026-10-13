@@ -1,4 +1,3 @@
-```python
 """
 Magnitude and Direction of a Vector
 ----------------------------------
@@ -35,7 +34,7 @@ angle_radians = math.atan2(y, x)
 angle_degrees = math.degrees(angle_radians)
 
 # ---------------------------------
-# Output
+# Get Output
 # ---------------------------------
 
 print("\nVector:")
