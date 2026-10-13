@@ -114,6 +114,10 @@ Statistics are used to estimate the corresponding population parameters.
 
 Data in statistics mainly classified as qualitative (categorial) and quantitative (numerical) data.
 
+Qualitative data describes categories, while quantitative data represents numerical values.
+
+Quantitative data is divided into discrete and continuous data.
+
 ---
 
 # Statistical Workflow
