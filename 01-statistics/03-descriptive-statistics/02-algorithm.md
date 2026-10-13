@@ -1,7 +1,5 @@
 # Algorithms for Descriptive Statistics
 
-Descriptive statistics consists of several statistical measures used to summarize and describe a dataset. Each measure has its own computation procedure.
-
 ---
 
 # Algorithm 1: Computing the Mean
@@ -119,7 +117,7 @@ Descriptive statistics consists of several statistical measures used to summariz
 4. Determine the third quartile (Q3).
 5. Compute:
 
-```text id="dgol1u"
+```text 
 IQR = Q3 − Q1
 ```
 
