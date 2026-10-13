@@ -112,7 +112,7 @@ Statistics are used to estimate the corresponding population parameters.
 
 # Data Types
 
-Data in statistics mainly classified as qualitative (categorial) and quantitative (numerical) data.
+Data in statistics mainly classified as qualitative (categorical) and quantitative (numerical) data.
 
 Qualitative data describes categories, while quantitative data represents numerical values.
 
