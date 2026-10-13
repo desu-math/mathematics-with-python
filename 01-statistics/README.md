@@ -2,7 +2,7 @@
 
 ## Overview
 
-This course covers the fundamental concepts of statistics especially required for data analysis and machine learning.
+This course covers the fundamental concepts of statistics and probability especially required for data analysis and data science.
 
 Statistics provides the mathematical foundation for understanding data, measuring uncertainty, discovering relationships, and making data-driven decisions.
 
@@ -12,19 +12,19 @@ The focus of this course is not only theoretical understanding but also practica
 
 # Learning Objectives
 
-By completing this chapter, you will be able to:
+By completing this course, you will be able to:
 
-* Understand the role of statistics in data science.
+* Understand the role of statistics in data analysis and data science.
 * Analyze and summarize datasets using statistical methods.
 * Measure patterns, variability, and relationships in data.
 * Apply probability concepts to uncertain events.
 * Perform statistical inference and hypothesis testing.
-* Build a foundation for regression and machine learning models.
+* Build a foundation for data analysis and data science.
 * Implement statistical methods using Python.
 
 ---
 
-# Chapter Structure
+# Course Structure
 
 ```text
 01-statistics/
@@ -118,10 +118,6 @@ By completing this chapter, you will be able to:
 ## 8. Regression
 
 * Simple linear regression
-* Multiple linear regression
-* Least squares method
-* Model evaluation
-
 ---
 
 # Python Libraries
@@ -133,23 +129,6 @@ The following libraries are used throughout this course:
 | NumPy       | Numerical computations          |
 | Pandas      | Data manipulation and analysis  |
 | Matplotlib  | Data visualization              |
-| SciPy       | Statistical functions and tests |
-| Statsmodels | Statistical modeling            |
-
----
-
-# Connection to Data Science
-
-Statistics is a core component of data science.
-
-The concepts covered here will be applied in:
-
-* Exploratory Data Analysis (EDA)
-* Data visualization
-* Feature analysis
-* Statistical testing
-* Predictive modeling
-* Machine learning
 
 ---
 
