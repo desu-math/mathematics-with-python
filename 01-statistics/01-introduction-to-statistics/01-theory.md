@@ -110,6 +110,12 @@ Statistics are used to estimate the corresponding population parameters.
 
 ---
 
+# Data Types
+
+Data in statistics mainly classified as qualitative (categorial) and quantitative (numerical) data.
+
+---
+
 # Statistical Workflow
 
 A typical statistical study follows these steps:
