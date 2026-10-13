@@ -6,7 +6,7 @@ Statistics is the branch of mathematics concerned with **collecting, organizing,
 
 It provides the tools needed to transform raw data into meaningful information, enabling informed decisions and reliable conclusions.
 
-In modern science, engineering, business, medicine, economics, and artificial intelligence, statistics plays a fundamental role in understanding data and uncertainty.
+In data science, engineering, business, medicine, economics, and artificial intelligence, statistics plays a fundamental role in understanding data and uncertainty.
 
 ---
 
@@ -39,8 +39,6 @@ It provides the mathematical tools required to:
 * evaluate machine learning models,
 * quantify uncertainty,
 * draw reliable conclusions from data.
-
-Many machine learning algorithms are built upon statistical concepts.
 
 ---
 
@@ -162,8 +160,6 @@ Throughout this course, the following libraries will be used:
 * **NumPy** for numerical computations.
 * **Pandas** for data manipulation.
 * **Matplotlib** for visualization.
-* **SciPy** for statistical methods.
-* **Statsmodels** for statistical modeling.
 
 These tools enable efficient analysis of both small and large datasets.
 
