@@ -250,6 +250,150 @@ is nonhomogeneous.
 
 ---
 
+## Homogeneous and Nonhomogeneous Differential Equations
+
+The terms *homogeneous* and *nonhomogeneous* can have different meanings depending on the type of differential equation being studied. In first-order differential equations, it is especially important to distinguish between homogeneous linear equations and homogeneous nonlinear equations.
+
+### 1. Homogeneous and Nonhomogeneous Linear ODEs
+
+A first-order linear ODE can be written in the standard form:
+
+dy/dx + P(x)y = Q(x)
+
+Here, P(x) and Q(x) are functions of x.
+
+**Homogeneous linear ODE**
+
+The equation is called homogeneous if Q(x) = 0. Therefore, its standard form is:
+
+dy/dx + P(x)y = 0
+
+Example:
+
+dy/dx + 3y = 0
+
+This equation is linear and homogeneous because the right-hand side of the standard form is zero.
+
+**Nonhomogeneous linear ODE**
+
+The equation is called nonhomogeneous if Q(x) is not identically zero. Its standard form is:
+
+dy/dx + P(x)y = Q(x)
+
+Example:
+
+dy/dx + 3y = x
+
+This equation is linear and nonhomogeneous because Q(x) = x, which is not identically zero.
+
+Important: In this context, the word "homogeneous" refers to the right-hand side of the standard linear equation. It does not mean that the differential equation is nonlinear or that every term must have the same degree.
+
+### 2. Homogeneous Nonlinear First-Order ODEs
+
+A nonlinear first-order ODE can also be called homogeneous, but the term has a different meaning in this context.
+
+A common form of a homogeneous first-order ODE is:
+
+dy/dx = F(y/x)
+
+Here, F is a function that depends on the ratio y/x.
+
+In other words, the right-hand side can be expressed entirely in terms of y/x, rather than depending independently on x and y.
+
+**Example 1: A homogeneous nonlinear ODE**
+
+dy/dx = 1 + (y/x)^2
+
+The right-hand side depends only on the ratio y/x. Therefore, this is a homogeneous first-order ODE.
+
+It is also nonlinear because the equation contains (y/x)^2, so it cannot be expressed in the standard linear form:
+
+dy/dx + P(x)y = Q(x)
+
+**Example 2: A nonlinear ODE that is not homogeneous in this sense**
+
+dy/dx = x + y^2
+
+The right-hand side cannot be expressed as a function of y/x alone. Therefore, this equation is not homogeneous under the common first-order definition used here.
+
+It is nonlinear because of the y^2 term.
+
+### 3. Another Way to Identify a Homogeneous First-Order ODE
+
+A first-order ODE may also be written in the differential form:
+
+M(x,y)dx + N(x,y)dy = 0
+
+One common test for homogeneity is to check whether M(x,y) and N(x,y) are homogeneous functions of the same degree.
+
+A function G(x,y) is homogeneous of degree n if:
+
+G(tx,ty) = t^n G(x,y)
+
+for an appropriate range of t.
+
+For example, consider:
+
+M(x,y) = x^2 + y^2
+
+Replace x with tx and y with ty:
+
+M(tx,ty) = (tx)^2 + (ty)^2
+
+M(tx,ty) = t^2(x^2 + y^2)
+
+Therefore, M(x,y) is homogeneous of degree 2.
+
+This test is useful when an ODE is written in differential form. It is another way to recognize homogeneous first-order equations.
+
+### 4. Comparison of the Different Meanings
+
+Consider the following equations:
+
+**Equation A:**
+
+dy/dx + 3y = 0
+
+* Type: Linear
+* Homogeneity: Homogeneous linear ODE
+* Reason: The right-hand side is zero.
+
+**Equation B:**
+
+dy/dx + 3y = x
+
+* Type: Linear
+* Homogeneity: Nonhomogeneous linear ODE
+* Reason: The right-hand side is not identically zero.
+
+**Equation C:**
+
+dy/dx = 1 + (y/x)^2
+
+* Type: Nonlinear
+* Homogeneity: Homogeneous first-order ODE
+* Reason: The right-hand side depends only on y/x.
+
+**Equation D:**
+
+dy/dx = x + y^2
+
+* Type: Nonlinear
+* Homogeneity: Not homogeneous under the common first-order definition discussed above
+* Reason: The right-hand side cannot be expressed as a function of y/x alone.
+
+### 5. Important Conclusion
+
+A nonlinear ODE can be homogeneous. However, we must identify which definition of homogeneity is being used.
+
+* For a linear ODE, homogeneous means that Q(x) = 0 when the equation is written as dy/dx + P(x)y = Q(x).
+* For a common class of nonlinear first-order ODEs, homogeneous means that the equation can be written as dy/dx = F(y/x).
+* In differential form, another useful test is whether M(x,y) and N(x,y) are homogeneous functions of the same degree.
+
+**Common misconception:** Do not assume that every homogeneous ODE is linear, or that every nonlinear ODE is nonhomogeneous. Linearity and homogeneity describe different properties, and the meaning of homogeneity depends on the context.
+
+---
+
 ## 1.5 Solutions of Differential Equations
 
 A **solution of a differential equation** is a function that satisfies the equation when the function and its required derivatives are substituted into it.
