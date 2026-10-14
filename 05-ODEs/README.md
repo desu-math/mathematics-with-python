@@ -1,13 +1,9 @@
-# Ordinary Differential Equations: Theory, Analytical Methods, and Computational Applications
+# Ordinary Differential Equations
 
 **A comprehensive study of Ordinary Differential Equations (ODEs) combining mathematical theory, analytical problem-solving, and Python implementations.**
 
 This repository is a structured learning resource developed to strengthen my understanding of Ordinary Differential Equations as a final-year Applied Mathematics student. It combines theoretical explanations, mathematical derivations, step-by-step solution algorithms, hand-worked examples, and Python implementations to develop both analytical and computational problem-solving skills.
 
-The course has two primary objectives:
-
-1. **Academic Preparation:** Build a strong conceptual and computational foundation in ODEs in preparation for the Ethiopian University Exit Examination in Applied Mathematics.
-2. **Professional Development:** Develop a demonstrable portfolio of mathematical reasoning, numerical computation, scientific programming, and applied mathematical modeling for future scholarship opportunities and advanced studies.
 
 The course follows the subject organization of *Advanced Engineering Mathematics, 10th Edition*, by Erwin Kreyszig, Herbert Kreyszig, and Edward J. Norminton, as its principal reference.
 
