@@ -11,6 +11,8 @@ The course follows the subject organization of *Advanced Engineering Mathematics
 
 ## Table of Contents
 
+---
+
 * [1. Course Objectives](#1-course-objectives)
 * [2. Learning Philosophy](#2-learning-philosophy)
 * [3. Course Structure](#3-course-structure)
@@ -27,6 +29,8 @@ The course follows the subject organization of *Advanced Engineering Mathematics
 ---
 
 ## 1. Course Objectives
+
+---
 
 The main objective of this repository is to develop a systematic understanding of ordinary differential equations, from fundamental concepts to analytical solution techniques, numerical methods, and applications.
 
@@ -45,7 +49,11 @@ Specifically, this project aims to:
 * Develop the ability to interpret, visualize, and evaluate mathematical and computational results.
 * Strengthen the theoretical knowledge and problem-solving skills needed for university exit examinations and further academic study.
 
+---
+
 ## 2. Learning Philosophy
+
+---
 
 This repository emphasizes understanding, mathematical reasoning, and independent problem-solving rather than memorization alone.
 
@@ -63,7 +71,11 @@ Worked examples demonstrate how to solve mathematical problems step by step usin
 
 This develops the ability to solve examination problems independently, without depending on computational tools.
 
+---
+
 ### 2.3 Algorithmic Thinking
+
+---
 
 Mathematical procedures are organized into clear algorithms that describe the sequence of operations required to solve a problem.
 
@@ -75,7 +87,11 @@ Where appropriate, solution methods are implemented in Python without relying on
 
 These implementations help demonstrate the mathematical principles underlying computational methods.
 
+---
+
 ### 2.5 Library-Based Computation
+
+---
 
 Selected problems are also solved using established scientific Python libraries.
 
@@ -97,6 +113,8 @@ The goal is to develop the habit of evaluating whether a mathematical result is 
 
 ## 3. Course Structure
 
+---
+
 The repository is organized by mathematical topics. Each topic has its own directory containing the relevant theoretical explanations, solution algorithms, worked examples, and Python implementations where appropriate.
 
 A typical topic follows this structure:
@@ -114,7 +132,12 @@ Not every topic must contain all five files. The structure is adapted to the mat
 
 For example, some analytical methods may not require a Python implementation, while numerical methods may benefit from both independent and library-based implementations.
 
+---
+
 ### Purpose of Each File
+
+---
+
 
 | File           | Purpose                                                                                                  |
 | -------------- | -------------------------------------------------------------------------------------------------------- |
@@ -130,7 +153,11 @@ This organization separates mathematical understanding, procedural knowledge, ma
 
 ## 4. Organization of Each Topic
 
+---
+
 ### 4.1 `theory.md`
+
+---
 
 This file provides the conceptual and theoretical foundation of the topic.
 
@@ -155,7 +182,11 @@ Depending on the subject, it may contain:
 
 The emphasis is on explaining both **what a mathematical result means and why it is valid**.
 
+---
+
 ### 4.2 `algorithm.md`
+
+---
 
 This file translates a mathematical method into an ordered procedure.
 
@@ -174,7 +205,11 @@ Depending on the topic, it may contain:
 
 The algorithms should be sufficiently clear that a reader can follow them manually or translate them into Python.
 
+---
+
 ### 4.3 `example.md`
+
+---
 
 This file contains manually worked mathematical examples.
 
@@ -194,7 +229,11 @@ A typical worked example includes:
 
 Examples range from fundamental exercises to more challenging problems that combine multiple concepts.
 
+---
+
 ### 4.4 `code1.py` — Independent Python Implementation
+
+---
 
 This file contains a Python implementation of the relevant mathematical method without relying on a specialized library to perform the main calculation.
 
@@ -212,7 +251,11 @@ For example, a numerical method such as Euler's method can be implemented direct
 
 The objective is to demonstrate that I understand the algorithm sufficiently well to implement it independently.
 
+---
+
 ### 4.5 `code2.py` — Library-Based Python Implementation
+
+---
 
 This file demonstrates how the same or a closely related problem can be solved using established scientific Python libraries.
 
@@ -233,11 +276,17 @@ The purpose is to understand both the mathematical method and its practical use 
 
 ## 5. Course Syllabus
 
+---
+
 The syllabus is organized around the ODE material in *Advanced Engineering Mathematics*, 10th Edition.
+
+---
 
 ### Module 1: First-Order Ordinary Differential Equations
 
 **Primary reference: Chapter 1**
+
+---
 
 Topics include:
 
@@ -256,9 +305,13 @@ Topics include:
 * Orthogonal trajectories.
 * Existence and uniqueness of solutions.
 
+---
+
 ### Module 2: Second-Order Linear Ordinary Differential Equations
 
 **Primary reference: Chapter 2**
+
+---
 
 Topics include:
 
@@ -277,9 +330,13 @@ Topics include:
 * Mathematical modeling of electric circuits.
 * Variation of parameters.
 
+---
+
 ### Module 3: Higher-Order Linear Ordinary Differential Equations
 
 **Primary reference: Chapter 3**
+
+---
 
 Topics include:
 
@@ -292,9 +349,13 @@ Topics include:
 * Methods for finding particular solutions.
 * Initial conditions and the determination of arbitrary constants.
 
+---
+
 ### Module 4: Systems of Ordinary Differential Equations
 
 **Primary reference: Chapter 4**
+
+---
 
 Topics include:
 
@@ -310,9 +371,13 @@ Topics include:
 * Qualitative analysis of nonlinear systems.
 * Nonhomogeneous linear systems.
 
+---
+
 ### Module 5: Series Solutions of Ordinary Differential Equations
 
 **Primary reference: Chapter 5**
+
+---
 
 Topics include:
 
@@ -326,9 +391,13 @@ Topics include:
 * Bessel functions of the first and second kinds.
 * Special functions arising from differential equations.
 
+---
+
 ### Module 6: Laplace Transforms and Differential Equations
 
 **Primary reference: Chapter 6**
+
+---
 
 Topics include:
 
@@ -346,9 +415,13 @@ Topics include:
 * Differential equations with variable coefficients, as covered by the text.
 * Systems of ODEs using Laplace transforms.
 
+---
+
 ### Module 7: Numerical Methods for Ordinary Differential Equations
 
 **Primary reference: Chapter 21, Sections 21.1–21.3**
+
+---
 
 This module extends the analytical material by studying computational methods for approximating solutions.
 
@@ -371,6 +444,8 @@ The precise methods covered in this module will follow the selected sections of 
 
 ## 6. Mathematical and Computational Approach
 
+---
+
 The repository connects four complementary aspects of studying differential equations.
 
 | Aspect                | Main question                                                    | Intended outcome                                              |
@@ -382,7 +457,11 @@ The repository connects four complementary aspects of studying differential equa
 
 Where appropriate, topics will also include mathematical modeling, graphical interpretation, numerical experimentation, and verification.
 
+---
+
 ### Analytical and Numerical Solutions
+
+---
 
 Analytical methods aim to obtain mathematical expressions for solutions. Numerical methods approximate solution values at selected points.
 
@@ -392,7 +471,11 @@ Analytical solutions help establish exact mathematical behavior when closed-form
 
 Comparing the two can reveal approximation errors, computational limitations, and the practical strengths of different methods.
 
+---
+
 ### Verification of Results
+
+---
 
 Whenever practical, solutions will be checked using one or more of the following:
 
@@ -409,6 +492,8 @@ Verification is treated as an essential part of mathematical problem-solving rat
 ---
 
 ## 7. Technologies and Tools
+
+---
 
 The project primarily uses Python and Markdown.
 
@@ -428,6 +513,8 @@ Not every tool is required for every topic. The choice depends on the mathematic
 ---
 
 ## 8. Learning Outcomes
+
+---
 
 After completing the course, I aim to be able to:
 
@@ -450,6 +537,8 @@ After completing the course, I aim to be able to:
 
 ## 9. Intended Audience
 
+---
+
 This repository is primarily intended for:
 
 * Undergraduate Applied Mathematics students studying ordinary differential equations.
@@ -463,6 +552,8 @@ Although the repository is being developed as part of my own academic preparatio
 ---
 
 ## 10. How to Use This Repository
+
+---
 
 For each topic, the recommended learning sequence is:
 
@@ -506,6 +597,8 @@ For computational development, particular attention should be given to algorithm
 
 ## 11. Future Development
 
+---
+
 This repository will be developed progressively as I study and practice each topic.
 
 Planned improvements include:
@@ -530,6 +623,8 @@ The priority is to develop accurate, understandable, and well-tested material ra
 
 **Primary Reference**
 
+---
+
 Kreyszig, E., Kreyszig, H., & Norminton, E. J. (2011). *Advanced Engineering Mathematics* (10th ed.). John Wiley & Sons.
 
 The principal ODE material is organized around Chapters 1–6, with selected numerical methods drawn from Chapter 21.
@@ -541,6 +636,8 @@ The textbook serves as the primary reference for mathematical concepts, derivati
 ---
 
 ## Final Statement
+
+---
 
 This project represents my commitment to developing a strong foundation in applied mathematics through a combination of theoretical understanding, analytical problem-solving, algorithmic thinking, and scientific programming.
 
